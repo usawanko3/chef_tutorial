@@ -2,3 +2,8 @@
 # Vagrant
 #
 .vagrant
+
+#
+# Chef
+#
+/cookbooks/
