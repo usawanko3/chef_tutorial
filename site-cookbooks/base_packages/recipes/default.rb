@@ -6,3 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+%w{gcc make git}.each do |pkg|
+  package pkg do
+    action :install
+  end
+end
